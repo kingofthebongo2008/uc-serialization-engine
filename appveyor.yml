@@ -8,7 +8,7 @@ build_script:
 - cmd: >-
     nuget restore c:\projects-ek8l7wf7eam490c6\build\build.sln
 
-    msbuild c:\projects\build-ek8l7wf7eam490c6\build.sln /p:Configuration="Release" /verbosity:quiet
+    msbuild c:\projects-ek8l7wf7eam490c6\build\build.sln /p:Configuration="Release" /verbosity:quiet
 
 before_deploy:
 - ps: >-
